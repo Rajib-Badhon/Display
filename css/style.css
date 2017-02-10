@@ -1,0 +1,197 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.clear{
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.headersection {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.headertop {
+	margin-top: 20px;
+	border-bottom: 1px solid #DADADA;
+
+}
+
+.logo {
+	float: left;
+
+}
+
+.logo img{
+	float: left;
+}
+.logo h1{
+	display: inline-block;
+	margin-left: 10px;
+	text-transform: uppercase;
+	color: #737373;
+	margin-top: 10px;
+}
+
+.social {
+	float: right;
+	margin-top: 10px;
+}
+
+.social img{}
+
+.headerbottom {
+}
+
+.nav {
+	margin-bottom: 20px;
+
+}
+
+.nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.nav ul li{
+	float: left;
+	margin-right: 20px;
+}
+.nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ABABAB;
+	font-weight: bold;
+}
+
+.nav ul li a:hover{
+	color: #2DCC70;
+}
+
+.slider {
+	position: relative;
+}
+
+.slider img{
+	width: 100%;
+	height: 500px;
+}
+
+.img2{
+	position: absolute;
+	bottom: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.img2 img{
+
+	width: 700px;
+	height: 400px;
+}
+
+
+.content {
+	width: 960px;
+	margin: 40px auto;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.content p{
+	color: #737373;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.content a{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	background: #2DCC70;
+	padding: 10px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.service {
+	background: #332F30;
+}
+
+.text {
+	width: 960px;
+	margin: 20px auto;
+	margin-top: 10px;
+
+
+}
+
+.text h2{
+	color: #fff;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 35px;
+
+
+}
+
+.button {
+}
+
+.text a{
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	background: #2DCC70;
+	padding: 10px;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.footerleft {
+	float: left;
+}
+
+.footerleft p{
+	color: #ABABAB;
+}
+
+.footerright {
+	float: right;
+}
+
+.footerright ul{
+	list-style: none;
+}
+.footerright ul li{
+	float: left;
+}
+.footerright ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ABABAB;
+	font-size: 14px;
+
+}
+.footerright ul li a span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
